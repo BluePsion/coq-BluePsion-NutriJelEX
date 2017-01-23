@@ -1,0 +1,21 @@
+<encountertables>
+  
+    <encountertable Name="Artifact 1R" Load="Merge">
+    <objects>
+      <object Chance="5" Number="1d1" Blueprint="BP NutriJelEX"></object>
+    </objects>
+  </encountertable>
+  
+  <encountertable Name="Artifact 2R" Load="Merge">
+    <objects>
+      <object Chance="5" Number="1d1" Blueprint="BP NutriJelEX"></object>
+    </objects>
+  </encountertable>
+
+  <encountertable Name="Artifact 3R" Load="Merge">
+    <objects>
+      <object Chance="5" Number="1d1" Blueprint="BP NutriJelEX"></object>
+    </objects>
+  </encountertable>  
+
+</encountertables>

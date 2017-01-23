@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+  <object Name="BP NutriJelEX" Inherits="Armor">
+    <part Name="Armor" AV="2" DV="0" RF="0" WornOn="Back"></part>
+    <part Name="Physics" Weight="1" bUsesTwoSlots="false"></part>
+    <part Name="Render" DisplayName="&amp;yNutriJelEx" ColorString="&amp;w" RenderString="]" Tile="items/sw_beehive.bmp"></part>
+    <part Name="Commerce" Value="95"></part>    
+    <part Name="Description" Short="A low whine emits from its boxy steel chasis. NUTRIJELEX is printed on the side."></part>
+    <part Name="Physics" Weight="8"></part>
+    <part Name="AddsRep" Faction="Robots" Value="100"></part>
+    <tag Name="Tier" Value="3"></tag>
+    <tag Name="UsesSlots" Value="Back,Floating Nearby"></tag>
+    <part Name="TinkerItem" Bits="123" CanDisassemble="true" CanBuild="true" CanRepair="true"></part>
+    <part Name="Examiner" UnknownDisplayName="strange steel box" AlternateDisplayName="strange steel box" Complexity="1"></part>
+    <part Name="EnergyCellSocket" SlotType="EnergyCell"></part>
+    <part Name="BP_NutriJelExtruder"></part>
+  </object>
+  
+    <object Name="BP NutriJel Slab" Inherits="Food">
+    <part Name="Render" DisplayName="&amp;mnutrijel slab"></part>
+    <part Name="Description" Short="A foodstuff that fits slipperily in the palm of the hand. Vitamin rich morsels are suspended in the hazy lavender flesh."></part>
+    <part Name="Food" Hunger="20000" Thirst="500" Message="The gel is oddly sweet" AutoeatPriority="200"></part>
+    <part Name="Commerce" Value="5"></part>
+    </object>
+  
+  
+</objects>
